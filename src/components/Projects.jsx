@@ -3,9 +3,11 @@ function Projects() {
     {
       number: '01',
       title: 'Personal Portfolio Website',
-      technologies: 'React, CSS',
+      technologies: 'React, CSS, Vite',
       description:
         'High-performance React portfolio achieving 100 Lighthouse performance & 92 SEO score. Built with custom CSS, responsive design & SEO optimization.',
+      github: 'https://github.com/ArchanaSnaik/archana-portfolio',
+      live: '#',
     },
     {
       number: '02',
@@ -13,6 +15,8 @@ function Projects() {
       technologies: 'React, Node.js, MongoDB',
       description:
         'A simple task management application to organize tasks and track progress.',
+      github: 'https://github.com/ArchanaSnaik',
+      live: '#',
     },
     {
       number: '03',
@@ -20,6 +24,8 @@ function Projects() {
       technologies: 'React, API',
       description:
         'A weather forecasting application that displays real-time weather information.',
+      github: 'https://github.com/ArchanaSnaik',
+      live: '#',
     },
   ];
 
@@ -37,7 +43,7 @@ function Projects() {
           </p>
         </div>
 
-        <a href="#projects" className="text-link">
+        <a href="https://github.com/ArchanaSnaik" target="_blank" rel="noopener noreferrer" className="text-link">
           View All Projects <span>→</span>
         </a>
       </div>
@@ -51,7 +57,7 @@ function Projects() {
             <p className="project-description">
               {project.description}
             </p>
-            <a href="#contact" className="text-link">
+            <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-link">
               View Project <span>→</span>
             </a>
           </article>
