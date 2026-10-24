@@ -1,0 +1,43 @@
+
+/* Shared section styles */
+.section {
+  padding: 38px 7%;
+  border-bottom: 1px solid #1b2736;
+}
+
+.section-heading {
+  max-width: 380px;
+}
+
+.section-number {
+  display: inline-block;
+  color: #b7c9e8;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.section h2 {
+  margin: 0 0 10px;
+  color: #eef1fa;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 157px;
+}
+
+/* Responsive layout */
+@media (max-width: 850px) {
+  .main-content {
+    margin-left: 125px;
+  }
+}
+
+@media (max-width: 520px) {
+  .main-content {
+    margin-left: 0;
+  }
+}

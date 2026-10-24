@@ -1,0 +1,89 @@
+
+.education-layout {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.education-timeline {
+  position: relative;
+  border-left: 1px solid #29384d;
+  margin-left: 4px;
+  padding-left: 30px;
+}
+
+.education-item {
+  position: relative;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -34px;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #8294ff;
+}
+
+.education-item h3 {
+  color: #eef1fa;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 7px;
+}
+
+.education-item p,
+.education-duration {
+  color: #aebfd7;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.education-duration {
+  display: block;
+}
+
+.education-quote {
+  margin: 0;
+  padding: 0 0 0 32px;
+  border-left: 1px solid #29384d;
+  max-width: 250px;
+}
+
+.quote-mark {
+  display: block;
+  color: #8294ff;
+  font-size: 32px;
+  height: 26px;
+}
+
+.education-quote p {
+  color: #c1cde0;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+
+.quote-line {
+  display: block;
+  width: 45px;
+  border-bottom: 1px solid #a47aff;
+}
+
+@media (max-width: 700px) {
+  .education-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
