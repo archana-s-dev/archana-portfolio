@@ -21,9 +21,9 @@ function Contact() {
           linkedin.com/in/archana-s643
         </a>
 
-        <a href="https://github.com/ArchanaSnaik" target="_blank">
+        <a href="https://github.com/archana-s-dev" target="_blank">
           <span>GitHub</span>
-          github.com/ArchanaSnaik
+          github.com/archana-s-dev
         </a>
       </div>
 

@@ -6,7 +6,7 @@ function Projects() {
       technologies: 'React, CSS, Vite',
       description:
         'High-performance React portfolio achieving 100 Lighthouse performance & 92 SEO score. Built with custom CSS, responsive design & SEO optimization.',
-      github: 'https://github.com/ArchanaSnaik/archana-portfolio',
+      github: 'https://github.com/archana-s-dev/archana-portfolio',
       live: '#',
     },
     {
@@ -15,7 +15,7 @@ function Projects() {
       technologies: 'React, Node.js, MongoDB',
       description:
         'A simple task management application to organize tasks and track progress.',
-      github: 'https://github.com/ArchanaSnaik',
+      github: 'https://github.com/archana-s-dev',
       live: '#',
     },
     {
@@ -24,7 +24,7 @@ function Projects() {
       technologies: 'React, API',
       description:
         'A weather forecasting application that displays real-time weather information.',
-      github: 'https://github.com/ArchanaSnaik',
+      github: 'https://github.com/archana-s-dev',
       live: '#',
     },
   ];
@@ -43,7 +43,7 @@ function Projects() {
           </p>
         </div>
 
-        <a href="https://github.com/ArchanaSnaik" target="_blank" rel="noopener noreferrer" className="text-link">
+        <a href="https://github.com/archana-s-dev" target="_blank" rel="noopener noreferrer" className="text-link">
           View All Projects <span>→</span>
         </a>
       </div>
