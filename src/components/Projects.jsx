@@ -15,7 +15,7 @@ function Projects() {
       technologies: 'React, Node.js, MongoDB',
       description:
         'A simple task management application to organize tasks and track progress.',
-      github: 'https://github.com/archana-s-dev',
+      github: 'https://github.com/archana-s-dev/task-manager',
       live: '#',
     },
     {
