@@ -12,7 +12,7 @@ function Projects() {
     {
       number: '02',
       title: 'Task Manager App',
-      technologies: 'React, Node.js, MongoDB',
+      technologies: 'React, Node.js, Express.js, MongoDB',
       description:
         'A simple task management application to organize tasks and track progress.',
       github: 'https://github.com/archana-s-dev/task-manager',
